@@ -1,6 +1,6 @@
 # FAST Cipher (Zig Implementation)
 
-A pure Zig implementation of the FAST (Format-preserving, Additive, Symmetric Translation) cipher. This library provides format-preserving encryption/decryption that maintains the same format (radix and length) between plaintext and ciphertext, making it ideal for encrypting sensitive data like credit card numbers, SSNs, or other structured data.
+A pure Zig implementation of the [FAST](https://eprint.iacr.org/2021/1171.pdf) (Format-preserving, Additive, Symmetric Translation) cipher. This library provides format-preserving encryption/decryption that maintains the same format (radix and length) between plaintext and ciphertext, making it ideal for encrypting sensitive data like credit card numbers, SSNs, or other structured data.
 
 ## Usage
 
